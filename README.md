@@ -1,34 +1,42 @@
-<<<<<<< HEAD
-# FirstRaylibProject
-Primeiro projeto utilizando o framework Raylib e C++.
-=======
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# Primeiro Projeto com Raylib em C++
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+Este projeto foi desenvolvido como um laboratório prático para explorar o framework Raylib utilizando C++. O objetivo principal foi sair do template básico e implementar objetos com diferentes tipos de comportamento e movimentação, aplicando conceitos de Orientação a Objetos e lógica matemática.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+# 🧠 Objetivos de Aprendizado
 
-# Video Tutorial
+    Integração com Raylib: Configuração de janelas, controle de FPS e ciclo de renderização (BeginDrawing/EndDrawing).
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+    Manipulação de Memória: Uso consciente de alocação dinâmica (new e delete) para gerenciar objetos na memória Heap.
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+    Trigonometria Aplicada: Implementação de movimentos circulares e em espiral utilizando as funções sin() e cos().
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.programmingwithnick.com">My Website</a> | <br>
-</p>
->>>>>>> c8dd5b1 (Primeiro Projeto com Raylib)
+    Input Handling: Captura de eventos de teclado em tempo real para controle de personagens.
+
+# 🕹️ Funcionalidades do Teste
+
+O projeto apresenta três esferas com comportamentos distintos:
+
+    Círculo Vermelho (Controle do Usuário): Movimentado através das setas do teclado. Demonstra a aplicação de velocidade e detecção de input.
+
+    Círculo Amarelo (Orbital): Segue uma trajetória circular perfeita ao redor de um ponto central.
+
+    Círculo Azul (Espiral): Realiza um movimento de órbita enquanto altera seu raio dinamicamente, criando um efeito de expansão e contração em espiral.
+    Shutterstock
+
+# 🛠️ Estrutura do Código
+
+O código foi organizado em classes para separar a lógica do jogo da representação do objeto:
+
+    JogoBola: Atua como o motor do jogo (Game Engine), gerenciando o Game Loop, o processamento de eventos e a renderização.
+
+    Bola: Uma classe de entidade simples que encapsula os atributos de posição e tamanho, utilizando métodos getters e funções de translação.
+
+# 🚀 Como Executar
+
+    Certifique-se de ter o ambiente VS Code configurado para Raylib (este projeto utiliza o template v2).
+
+    Abra o arquivo main.code-workspace.
+
+    Navegue até src/main.cpp.
+
+    Pressione F5 para compilar e rodar.
